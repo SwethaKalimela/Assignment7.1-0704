@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSConditionals</title>
+</head>
+<body>
+    <script>
+    console.log("The largest of 5 Numbers");
+    var num1 = -8;
+    var num2 = 12.5;
+    var num3 = -6.769;
+    var num4 = 0;
+    var num5 = -1;
+    
+    var large;
+    
+    if(num1>num2 && num1>num3 && num1>num4 && num1>num5){  /*Checks if num1 is largest*/
+        large = num1;
+        console.log("Largest Number is num1 "+large);
+        }
+        else if(num2>num1 && num2>num3 && num2>num4 && num2>num5){ /*Checks if num2 is largest*/
+            large = num2;
+            console.log("Largest Number is num2 "+large);
+        }
+        else if(num3>num1 && num3>num2 && num3>num4 && num3>num5){ /*Checks if num3 is largest*/
+            large = num3;
+            console.log("Largest Number is num3 "+large);
+        }
+        else if(num4>num1 && num4>num2 && num4>num3 && num4>num5){ /*Checks if num4 is largest*/
+            large = num4;
+            console.log("Largest Number is num4 "+large);
+        }
+        else {    /*If all the above statements are false the control moves to else block and largest is num5*/
+            large = num5;
+            console.log("Largest Number is num5 "+large);
+        }  
+    </script>    
+</body>
+</html>
+
+
+
+
